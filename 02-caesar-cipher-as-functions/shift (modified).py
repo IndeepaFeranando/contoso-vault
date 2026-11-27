@@ -48,4 +48,4 @@ for character in cyphertext:
 print(plaintext)
 
 #Check if decryption is correct
-assert message == plaintext, "Decryption failed"
+assert message == plaintext, "Encrypted and decrypted messages did not match."
